@@ -11,4 +11,6 @@
 03 		checkout -b Historia000
 04		checkout -b Historia001
 05		checkout Historia000
+12		checkout Hisotria000 +stash+
+		checkout Historia000
 ================================
