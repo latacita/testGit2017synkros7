@@ -1,13 +1,22 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre):  de Castro Manzano,Alberto                                    %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ 
+01		clone URL	
+02
+03 		checkout -b Historia000
+04		checkout -b Historia001
+05		checkout Historia000
 07		add bitacora.txt
 08		commit -m "Paso 08"
 09		checkout Historia001
+12		checkout Hisotria000 +stash+
+		checkout Historia000
 17		stash apply
+20      merge 						Ha habido un conflicto en
+									bitacora.txt he utilizado visual code para dejar ambos cambios,ha sido recursiva la fusion.
 ================================
