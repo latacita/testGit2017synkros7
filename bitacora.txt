@@ -7,4 +7,7 @@
  Paso   Acción                       Notas
 ====== ============================ 
 25		merge						se realizaria de manera recursiva
+27		tag -a RespuestaPreguntaFusion b6d98e3	No me ha funcionado no entiendo el motivo
+28		push -u origin master +
+		push origin RespuestaPreguntFusion
 ================================
